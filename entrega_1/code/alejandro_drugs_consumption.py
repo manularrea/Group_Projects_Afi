@@ -275,3 +275,35 @@ for column in cte.drugs_columns:
                                 )
     print(grafico_droga_educacion)
 
+
+##############
+
+
+
+##############
+
+# Creo un DataFrame que contendrá por columnas cada droga y por filas la impulsividad media de
+# los distintos consumidores.
+
+df_impulsive = pd.DataFrame()
+for column in cte.drugs_columns:
+    series = df_grouped[[column, 'impulsive']].groupby(column).mean()
+    df_impulsive[column] = series
+    
+df_impulsive = df_impulsive.loc[['No consume', 'Consumo anual', 'Consumo frecuente', 'Consumo diario']]
+
+df_grouped['impulsive'].mean()
+
+
+# Creo un DataFrame que contendrá por columnas cada droga y por filas la sensación de ser visto
+# media de los distintos consumidores.
+
+df_sen_seeing = pd.DataFrame()
+for column in cte.drugs_columns:
+    series = df_grouped[[column, 'sensation_seeing']].groupby(column).mean()
+    df_sen_seeing[column] = series
+    
+df_sen_seeing = df_sen_seeing.loc[['No consume', 'Consumo anual', 'Consumo frecuente', 'Consumo diario']]
+
+df_grouped['sensation_seeing'].mean()
+
