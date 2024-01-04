@@ -259,3 +259,21 @@ drugs_values = {'CL0' : 'Never Used',
                 'CL4' : 'Used in Last Month',
                 'CL5' : 'Used in Last Week',
                 'CL6' : 'Used in Last Day'}
+
+education_values_grouped = {'Left school before 16 years': 'Sin estudios superiores',
+                            'Left school at 16 years': 'Sin estudios superiores',
+                            'Left school at 17 years': 'Sin estudios superiores',
+                            'Left school at 18 years': 'Sin estudios superiores',
+                            'Some college or university, no certificate or degree': 'Sin estudios superiores',
+                            'Professional certificate/diploma': 'Con estudios superiores',
+                            'University degree': 'Con estudios superiores',
+                            'Masters degree': 'Con estudios superiores',
+                            'Doctorate degree': 'Con estudios superiores'}
+
+drugs_values_grouped = {'Never Used' : 'No consume',
+                       'Used over a Decade Ago' : 'No consume',
+                       'Used in Last Decade' : 'No consume',
+                       'Used in Last Year' : 'Consumo anual',
+                       'Used in Last Month' : 'Consumo frecuente',
+                       'Used in Last Week' : 'Consumo frecuente',
+                       'Used in Last Day' : 'Consumo diario'}
