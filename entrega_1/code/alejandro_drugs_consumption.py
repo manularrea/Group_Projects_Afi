@@ -307,3 +307,67 @@ df_sen_seeing = df_sen_seeing.loc[['No consume', 'Consumo anual', 'Consumo frecu
 
 df_grouped['sensation_seeing'].mean()
 
+
+# Creo un DataFrame que contendrá por columnas cada droga y por filas el neuroticismo
+# medio de los distintos consumidores.
+
+df_n_score = pd.DataFrame()
+for column in cte.drugs_columns:
+    series = df_grouped[[column, 'n_score']].groupby(column).mean()
+    df_n_score[column] = series
+    
+df_n_score = df_n_score.loc[['No consume', 'Consumo anual', 'Consumo frecuente', 'Consumo diario']]
+
+df_grouped['n_score'].mean()
+
+
+# Creo un DataFrame que contendrá por columnas cada droga y por filas la extraversión
+# media de los distintos consumidores.
+
+df_e_score = pd.DataFrame()
+for column in cte.drugs_columns:
+    series = df_grouped[[column, 'e_score']].groupby(column).mean()
+    df_e_score[column] = series
+    
+df_e_score = df_e_score.loc[['No consume', 'Consumo anual', 'Consumo frecuente', 'Consumo diario']]
+
+df_grouped['e_score'].mean()
+
+
+# Creo un DataFrame que contendrá por columnas cada droga y por filas lo abierto a experiencias
+# que están de media los distintos consumidores.
+
+df_o_score = pd.DataFrame()
+for column in cte.drugs_columns:
+    series = df_grouped[[column, 'o_score']].groupby(column).mean()
+    df_o_score[column] = series
+    
+df_o_score = df_o_score.loc[['No consume', 'Consumo anual', 'Consumo frecuente', 'Consumo diario']]
+
+df_grouped['o_score'].mean()
+
+
+# Creo un DataFrame que contendrá por columnas cada droga y por filas lo agradable
+# que son de media los distintos consumidores.
+
+df_a_score = pd.DataFrame()
+for column in cte.drugs_columns:
+    series = df_grouped[[column, 'a_score']].groupby(column).mean()
+    df_a_score[column] = series
+    
+df_a_score = df_a_score.loc[['No consume', 'Consumo anual', 'Consumo frecuente', 'Consumo diario']]
+
+df_grouped['a_score'].mean()
+
+
+# Creo un DataFrame que contendrá por columnas cada droga y por filas lo conscientes
+# que son de media los distintos consumidores.
+
+df_c_score = pd.DataFrame()
+for column in cte.drugs_columns:
+    series = df_grouped[[column, 'c_score']].groupby(column).mean()
+    df_c_score[column] = series
+    
+df_c_score = df_c_score.loc[['No consume', 'Consumo anual', 'Consumo frecuente', 'Consumo diario']]
+
+df_grouped['c_score'].mean()
