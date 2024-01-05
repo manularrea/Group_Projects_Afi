@@ -278,6 +278,15 @@ for column in cte.drugs_columns:
 
 ##############
 
+# OJO DATOS
+# Mentirosos: son los que hayan contestado que alguna vez han consumido semer.
+mentirosos = df.loc[df.semer != 'Never Used']
+
+# Valores extraños: son las personas con 24 años o menos que hayan consumido alguna droga hace más de 10 años.
+valores_extraños = {}
+for column in cte.drugs_columns:
+    p = df.loc[(df.age == '18-24') & (df[column] == 'Used over a Decade Ago')]
+    valores_extraños[column] = p
 
 
 ##############
