@@ -27,7 +27,7 @@ for column in cte.drugs_columns:
 
     
 # Empecemos a sacar insights y gráficos.
-#       OBS: me da error al pintar el gráfico del cannabis
+
 for column in cte.drugs_columns:
     grafico_droga =   (
                         p9.ggplot(df, p9.aes(x=column, fill=column))
