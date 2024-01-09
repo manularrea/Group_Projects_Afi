@@ -39,12 +39,10 @@ Agrupacion definitiva:
 
 -----------------------
 <h1>Agrupación por edad</h1>
-
     * Agrupar los ultimos dos conjuntos en un solo grupo: 55+
     * Los demás igual
 
 <h1> Nivel educativo</h1>
-
 4 niveles de agrupación: 
     * Sin estudios = 4 primeras
     * Estudiando = no certificate / diploma 
@@ -52,27 +50,16 @@ Agrupacion definitiva:
     * Estudios superiores = Resto 
 
 <h1> Agrupación por país </h1>
-
 Para gráficos solo emplear USA y UK 
 
 <h1>Etnicidad </h1>
-
 Se elimina 
 
 <h1> Consumo </h1>
-
 * No User = CL0, CL1, CL2 : 0
 * User = CL3, CL4, CL5, CL6 : 1  
 
 <h1> Drugs </h1>
-
-Drogras categorias OMS (personalidad)
-
-    * Depresoras = 
-    * Alcohol =
-    * Alucinógenas =
-    * Depresoras =
-
 Drogas por tipo uso:
     * Recreacional = Cannabis, Extasis, LSD, Hongos 
     * Cannabis 
@@ -81,3 +68,9 @@ Drogas por tipo uso:
     * Sedantes = Benzo, Heroina, Keta, LH
     * Alto riesgo = Aminoacidos, Crack, VSA
     * Alcohol
+
+Drogras categorias OMS (para análisis de personalidad)
+
+    * Depresoras = 
+    * Alucinógenas =
+    * Depresoras = 
