@@ -23,6 +23,8 @@ NOTA: para hacer generalizaciones a la población general se debe hacer prueba d
 
 <h1> Nivel educativo</h1>
 
+Para tener insights mas amplios, agrupar.
+
 Opciones de agrupación:
 1. 
     * Tienen estudios superiores.
