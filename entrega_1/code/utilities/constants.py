@@ -91,7 +91,7 @@ drugs_values_grouped = {'Never Used' : 'No consume',
 
 ## Encoded values (Numerical):
 
-age_values_num = {-0.95197 : 1, -0.07854 : 2, 0.49788 : 3, 1.09449 : 4, 1.82213 : 5, 2.59171 : 6}
+age_values_num = {-0.95197 : 1, -0.07854 : 2, 0.49788 : 3, 1.09449 : 4, 1.82213 : 6, 2.59171 : 6}
 
 gender_values_num = {0.48246 : 0, -0.48246 : 1}
 
