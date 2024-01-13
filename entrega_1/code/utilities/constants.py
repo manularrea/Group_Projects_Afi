@@ -248,9 +248,13 @@ cscore_values = {-3.46436 : 17,
                   3.00537 : 57,
                   3.46436 : 59}
 
-drugs_columns = ['alcohol', 'amphet', 'amyl', 'benzos', 'caffeine', 'cannabis', 'chocolate',
+all_drugs_columns = ['alcohol', 'amphet', 'amyl', 'benzos', 'caffeine', 'cannabis', 'chocolate',
                  'cocaine', 'crack', 'ecstasy', 'heroin', 'ketamine', 'legal_highs',
                  'lsd', 'methadone', 'mushrooms', 'nicotine', 'semer', 'vsa']
+
+drugs_columns = ['alcohol', 'amphet', 'amyl', 'benzos', 'caffeine', 'cannabis', 'chocolate',
+                 'cocaine', 'crack', 'ecstasy', 'heroin', 'ketamine', 'legal_highs',
+                 'lsd', 'methadone', 'mushrooms', 'nicotine', 'vsa']
 
 drugs_values = {'CL0' : 'Never Used',
                 'CL1' : 'Used over a Decade Ago',
@@ -260,20 +264,24 @@ drugs_values = {'CL0' : 'Never Used',
                 'CL5' : 'Used in Last Week',
                 'CL6' : 'Used in Last Day'}
 
-education_values_grouped = {'Left school before 16 years': 'Sin estudios superiores',
-                            'Left school at 16 years': 'Sin estudios superiores',
-                            'Left school at 17 years': 'Sin estudios superiores',
-                            'Left school at 18 years': 'Sin estudios superiores',
-                            'Some college or university, no certificate or degree': 'Sin estudios superiores',
-                            'Professional certificate/diploma': 'Con estudios superiores',
-                            'University degree': 'Con estudios superiores',
-                            'Masters degree': 'Con estudios superiores',
-                            'Doctorate degree': 'Con estudios superiores'}
+education_values_grouped = {'Left school before 16 years': 'Sin estudios',
+                            'Left school at 16 years': 'Sin estudios',
+                            'Left school at 17 years': 'Sin estudios',
+                            'Left school at 18 years': 'Sin estudios',
+                            'Some college or university, no certificate or degree': 'Estudiando',
+                            'Professional certificate/diploma': 'Estudios de FP',
+                            'University degree': 'Estudios superiores',
+                            'Masters degree': 'Estudios superiores',
+                            'Doctorate degree': 'Estudios superiores'}
 
-drugs_values_grouped = {'Never Used' : 'No consume',
-                       'Used over a Decade Ago' : 'No consume',
-                       'Used in Last Decade' : 'No consume',
-                       'Used in Last Year' : 'Consumo anual',
-                       'Used in Last Month' : 'Consumo frecuente',
-                       'Used in Last Week' : 'Consumo frecuente',
-                       'Used in Last Day' : 'Consumo diario'}
+drugs_values_grouped = {'Never Used' : 0,
+                       'Used over a Decade Ago' : 0,
+                       'Used in Last Decade' : 0,
+                       'Used in Last Year' : 1,
+                       'Used in Last Month' : 1,
+                       'Used in Last Week' : 1,
+                       'Used in Last Day' : 1}
+
+drugs_to_delete = ['amphet', 'amyl', 'benzos', 'cannabis', 'cocaine',
+                   'crack', 'ecstasy', 'heroin', 'ketamine',
+                   'legal_highs', 'lsd', 'methadone', 'mushrooms', 'vsa']
