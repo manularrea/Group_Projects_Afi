@@ -1,6 +1,4 @@
-# Dictionaries
-
-## Encoded values (Categorical)
+# -*- coding: utf-8 -*-
 
 names = ['id', 'age', 'gender', 'education', 'country', 'ethnicity', 'n_score', 'e_score', 'o_score',
          'a_score', 'c_score', 'impulsive', 'sensation_seeing', 'alcohol', 'amphet', 'amyl', 'benzos', 'caffeine',
@@ -8,8 +6,6 @@ names = ['id', 'age', 'gender', 'education', 'country', 'ethnicity', 'n_score', 
          'lsd', 'methadone', 'mushrooms', 'nicotine', 'semer', 'vsa']
 
 age_values = {-0.95197 : '18-24', -0.07854 : '25-34', 0.49788 : '35-44', 1.09449 : '45-54', 1.82213 : '55-64', 2.59171 : '65+'}
-
-age_values_grouped = {-0.95197 : '18-24', -0.07854 : '25-34', 0.49788 : '35-44', 1.09449 : '45-54', 1.82213 : '55+', 2.59171 : '55+'}
 
 gender_values = {0.48246 : 'Female', -0.48246 : 'Male'}
 
@@ -22,16 +18,6 @@ education_values = {-2.43591 : 'Left school before 16 years',
                      0.45468 : 'University degree',
                      1.16365 : 'Masters degree',
                      1.98437 : 'Doctorate degree'}
-
-education_values_grouped = {'Left school before 16 years': 'Sin estudios superiores',
-                            'Left school at 16 years': 'Sin estudios superiores',
-                            'Left school at 17 years': 'Sin estudios superiores',
-                            'Left school at 18 years': 'Sin estudios superiores',
-                            'Some college or university, no certificate or degree': 'Estudiando',
-                            'Professional certificate/diploma': 'Con formación Profesional',
-                            'University degree': 'Con estudios superiores',
-                            'Masters degree': 'Con estudios superiores',
-                            'Doctorate degree': 'Con estudios superiores'}
 
 country_values = {-0.09765 : 'Australia',
                    0.24923 : 'Canada',
@@ -48,78 +34,6 @@ ethnicity_values = {-0.50212 : 'Asian',
                     -0.22166 : 'Mixed-White/Black',
                      0.11440 : 'Other',
                     -0.31685 : 'White'}
-
-drugs_columns = ['alcohol', 'amphet', 'amyl', 'benzos', 'caffeine', 'cannabis', 'chocolate',
-                 'cocaine', 'crack', 'ecstasy', 'heroin', 'ketamine', 'legal_highs',
-                 'lsd', 'methadone', 'mushrooms', 'nicotine', 'semer', 'vsa']
-
-drugs_columns_grouped = {'cannabis' : 'Cannabis',  # Recreacional
-                         'ecstasy' : 'Recreacional',
-                         'lsd' : 'Recreacional',
-                         'mushrooms': 'Recreacional',
-                         'amphet' : 'Estimulantes',
-                         'cocaine' : 'Estimulantes',
-                         'nicotine' : 'Nicotina', # Estimulante
-                         'methadone' : 'Estimulantes',
-                         'benzos' : 'Sedantes',
-                         'heroin' : 'Sedantes',
-                         'ketamine': 'Sedantes',
-                         'legal_highs': 'Sedantes',
-                         'amyl' : 'Alto riesgo',
-                         'crack': 'Alto riesgo', 
-                         'vsa': 'Alto riesgo',
-                         'alcohol' : 'Alcohol' # Sedante
-                         }
-
-drugs_values = {'CL0' : 'Never Used',
-                'CL1' : 'Used over a Decade Ago',
-                'CL2' : 'Used in Last Decade',
-                'CL3' : 'Used in Last Year',
-                'CL4' : 'Used in Last Month',
-                'CL5' : 'Used in Last Week',
-                'CL6' : 'Used in Last Day'}
-
-drugs_values_grouped = {'Never Used' : 'No consume',
-                       'Used over a Decade Ago' : 'No consume',
-                       'Used in Last Decade' : 'No consume',
-                       'Used in Last Year' : 'Consume',
-                       'Used in Last Month' : 'Consume',
-                       'Used in Last Week' : 'Consume',
-                       'Used in Last Day' : 'Consume'}
-
-#----------------------------------------------------------------#----------------------------------------------------------------
-
-## Encoded values (Numerical):
-
-age_values_num = {-0.95197 : 1, -0.07854 : 2, 0.49788 : 3, 1.09449 : 4, 1.82213 : 6, 2.59171 : 6}
-
-gender_values_num = {0.48246 : 0, -0.48246 : 1}
-
-education_values_num = {-2.43591 : 0,
-                    -1.73790 : 1,
-                    -1.43719 : 2,
-                    -1.22751 : 3,
-                    -0.61113 : 4,
-                    -0.05921 : 5,
-                     0.45468 : 6,
-                     1.16365 : 7,
-                     1.98437 : 8}
-
-country_values_num = {-0.09765 : 0,
-                   0.24923 : 1,
-                  -0.46841 : 2,
-                  -0.28519 : 3,
-                   0.21128 : 4,
-                   0.96082 : 5,
-                  -0.57009 : 6}
-
-ethnicity_values_num = {-0.50212 : 0,
-                    -1.10702 : 1,
-                     1.90725 : 2,
-                     0.12600 : 3,
-                    -0.22166 : 4,
-                     0.11440 : 5,
-                    -0.31685 : 6}
 
 nscore_values = {-3.46436 : 12,
                  -3.15735 : 13,
@@ -334,30 +248,40 @@ cscore_values = {-3.46436 : 17,
                   3.00537 : 57,
                   3.46436 : 59}
 
-ss_values_num = {-2.07848: 0,
-                -1.54858: 1,
-                -1.18084: 2,
-                -0.84637: 3,
-                -0.52593: 4,
-                -0.21575: 5,
-                 0.07987: 6,
-                 0.40148: 7,
-                 0.76540: 8,
-                 1.22470: 9,
-                 1.92173: 10}
+all_drugs_columns = ['alcohol', 'amphet', 'amyl', 'benzos', 'caffeine', 'cannabis', 'chocolate',
+                 'cocaine', 'crack', 'ecstasy', 'heroin', 'ketamine', 'legal_highs',
+                 'lsd', 'methadone', 'mushrooms', 'nicotine', 'semer', 'vsa']
 
-impulsivity_num = {-2.55524: 0,
-                   -1.37983: 1,
-                   -0.71126: 2,
-                   -0.21712: 3,
-                    0.19268: 4,
-                    0.52975: 5,
-                    0.88113: 6,
-                    1.29221: 7,
-                    1.86203: 8,
-                    2.90161: 9}
+drugs_columns = ['alcohol', 'amphet', 'amyl', 'benzos', 'caffeine', 'cannabis', 'chocolate',
+                 'cocaine', 'crack', 'ecstasy', 'heroin', 'ketamine', 'legal_highs',
+                 'lsd', 'methadone', 'mushrooms', 'nicotine', 'vsa']
 
-used_values = {'CL0':0,'CL1':0,'CL2':0,'CL3':1,'CL4':1,'CL5':1,'CL6':1}
+drugs_values = {'CL0' : 'Never Used',
+                'CL1' : 'Used over a Decade Ago',
+                'CL2' : 'Used in Last Decade',
+                'CL3' : 'Used in Last Year',
+                'CL4' : 'Used in Last Month',
+                'CL5' : 'Used in Last Week',
+                'CL6' : 'Used in Last Day'}
 
+education_values_grouped = {'Left school before 16 years': 'Sin estudios',
+                            'Left school at 16 years': 'Sin estudios',
+                            'Left school at 17 years': 'Sin estudios',
+                            'Left school at 18 years': 'Sin estudios',
+                            'Some college or university, no certificate or degree': 'Estudiando',
+                            'Professional certificate/diploma': 'Estudios de FP',
+                            'University degree': 'Estudios superiores',
+                            'Masters degree': 'Estudios superiores',
+                            'Doctorate degree': 'Estudios superiores'}
 
+drugs_values_grouped = {'Never Used' : 0,
+                       'Used over a Decade Ago' : 0,
+                       'Used in Last Decade' : 0,
+                       'Used in Last Year' : 1,
+                       'Used in Last Month' : 1,
+                       'Used in Last Week' : 1,
+                       'Used in Last Day' : 1}
 
+drugs_to_delete = ['amphet', 'amyl', 'benzos', 'cannabis', 'cocaine',
+                   'crack', 'ecstasy', 'heroin', 'ketamine',
+                   'legal_highs', 'lsd', 'methadone', 'mushrooms', 'vsa']
