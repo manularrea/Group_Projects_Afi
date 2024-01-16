@@ -53,13 +53,13 @@ drugs_columns = ['alcohol', 'amphet', 'amyl', 'benzos', 'caffeine', 'cannabis', 
                  'cocaine', 'crack', 'ecstasy', 'heroin', 'ketamine', 'legal_highs',
                  'lsd', 'methadone', 'mushrooms', 'nicotine', 'semer', 'vsa']
 
-drugs_columns_grouped = {'cannabis' : 'Cannabis',  # Recreacional
+drugs_columns_grouped = {'cannabis' : 'Recreacional',  # Recreacional
                          'ecstasy' : 'Recreacional',
                          'lsd' : 'Recreacional',
                          'mushrooms': 'Recreacional',
                          'amphet' : 'Estimulantes',
                          'cocaine' : 'Estimulantes',
-                         'nicotine' : 'Nicotina', # Estimulante
+                         'nicotine' : 'Estimulantes', # Estimulante
                          'methadone' : 'Estimulantes',
                          'benzos' : 'Sedantes',
                          'heroin' : 'Sedantes',
@@ -68,7 +68,7 @@ drugs_columns_grouped = {'cannabis' : 'Cannabis',  # Recreacional
                          'amyl' : 'Alto riesgo',
                          'crack': 'Alto riesgo', 
                          'vsa': 'Alto riesgo',
-                         'alcohol' : 'Alcohol' # Sedante
+                         'alcohol' : 'Sedante' # Sedante
                          }
 
 drugs_values = {'CL0' : 'Never Used',
