@@ -25,7 +25,7 @@ Versión de R: 4.3.2 o superior.
 
 - Carpeta doc: Incluye los documentos y memorias del proyecto.
         1. Archivo Clean_process_memmory.pdf: Memorias del proceso de limpieza y análisis preliminar de los datos.
-        2. Archivo Visualization_memmory.pdf: Documento con el análisis exploratorio de los datos, visualizaciones y conclusiones.
+        2. Archivo Visualization_memory.pdf: Documento con el análisis exploratorio de los datos, visualizaciones y conclusiones.
 
 - Carpeta code: Incluye las aplicaciones desarrolladas (scripts).
         1. Carpeta utilities: Contiene el encoder constants.py 
@@ -36,6 +36,7 @@ Versión de R: 4.3.2 o superior.
 - Carpeta data: Incluye los datasets.
         1. drug_consumption.data: Dataset empleado para el estudio.
         2. drug_consumption_clean.csv: Dataset salida del proceso de limpieza. 
+        3. Carpeta img: Incluye todos los gráficos en formato .jpg de las visualizaciones analizadas.
 
 ## Enlace al Repositorio de GitHub
 https://github.com/manularrea/Group_Projects_Afi
