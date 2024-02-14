@@ -7,13 +7,19 @@ Enlace del Dataset asignado: https://archive.ics.uci.edu/dataset/373/drug+consum
 ## Autores: Alejandro López-Fando Fernández, Jerson Alexander Peña Martínez, Manuela Larrea Gómez.
 
 # Requisitos del Sistema
-Versión de Python: 3.11.4 o superior
-## Versiones de Paquetes
-- Paquete 1: pandas 2.0.1 o superior
-- Paquete 2: plotnine 0.12.1 o superior
-- Paquete 3: plotly 5.9.0 o superior
-- Paquete 4: matplotlib 3.8.0 o superior
-- Paquete 5: seaborn 0.12.2 o superior
+Versión de Python: 3.11.4 o superior.
+Versión de R: 4.3.2 o superior. 
+
+## Versiones de Paquetes de Python: 
+- Paquete 1: pandas 2.0.1 o superior.
+- Paquete 2: plotnine 0.12.1 o superior.
+- Paquete 3: plotly 5.9.0 o superior.
+- Paquete 4: matplotlib 3.8.0 o superior.
+- Paquete 5: seaborn 0.12.2 o superior.
+## Versiones de Paquetes de R: 
+- Paquete 1: ggplot 
+- Paquete 2: dplyr
+- Paquete 2: ggridges 
 
 ## Contenido de Archivos - Descripción del Directorio del proyecto 
 
@@ -25,6 +31,7 @@ Versión de Python: 3.11.4 o superior
         1. Carpeta utilities: Contiene el encoder constants.py 
         2. Archivo clean_data.ipynb: Ejecutable del proceso de limpieza de la data.
         3. Archivo visualizations.ipynb: Ejecutable de las visualizaciónes empleadas para el Documento de análisis. 
+        4. Archivo visualizations.R:  Ejecutable de las visualizaciónes empleadas para el Documento de análisis.
 
 - Carpeta data: Incluye los datasets.
         1. drug_consumption.data: Dataset empleado para el estudio.
