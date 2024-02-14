@@ -31,7 +31,7 @@ Versión de R: 4.3.2 o superior.
         1. Carpeta utilities: Contiene el encoder constants.py 
         2. Archivo clean_data.ipynb: Ejecutable del proceso de limpieza de la data.
         3. Archivo visualizations.ipynb: Ejecutable de las visualizaciónes empleadas para el Documento de análisis. 
-        4. Archivo visualizations.R:  Ejecutable de las visualizaciónes empleadas para el Documento de análisis.
+        4. Archivo visualizations.R:  Ejecutable de las visualizaciónes empleadas para el Documento de análisis. 
 
 - Carpeta data: Incluye los datasets.
         1. drug_consumption.data: Dataset empleado para el estudio.
