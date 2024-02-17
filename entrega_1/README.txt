@@ -24,7 +24,7 @@ Versión de R: 4.3.2 o superior.
 ## Contenido de Archivos - Descripción del Directorio del proyecto 
 
 - Carpeta doc: Incluye los documentos y memorias del proyecto.
-        1. Archivo Clean_process_memory.pdf: Memorias del proceso de limpieza y análisis preliminar de los datos.
+        1. Archivo Clean_process_memory.html: Memorias del proceso de limpieza y análisis preliminar de los datos.
         2. Archivo Visualizations_memory.pdf: Documento con el análisis exploratorio de los datos, visualizaciones y conclusiones.
 
 - Carpeta code: Incluye las aplicaciones desarrolladas (scripts).
