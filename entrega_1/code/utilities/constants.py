@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 names = ['id', 'age', 'gender', 'education', 'country', 'ethnicity', 'n_score', 'e_score', 'o_score',
-         'a_score', 'c_score', 'impulsive', 'sensation_seeing', 'alcohol', 'amphet', 'amyl', 'benzos', 'caffeine',
+         'a_score', 'c_score', 'impulsive', 'sensation_seeking', 'alcohol', 'amphet', 'amyl', 'benzos', 'caffeine',
          'cannabis', 'chocolate', 'cocaine', 'crack', 'ecstasy', 'heroin', 'ketamine', 'legal_highs',
          'lsd', 'methadone', 'mushrooms', 'nicotine', 'semer', 'vsa']
 

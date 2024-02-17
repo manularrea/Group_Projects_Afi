@@ -1,4 +1,4 @@
-age,gender,education,country,n_score,e_score,o_score,a_score,c_score,impulsive,sensation_seeing,alcohol,caffeine,nicotine,recreational_drugs,stimulant_drugs,sedative_drugs,high_risk_drugs
+age,gender,education,country,n_score,e_score,o_score,a_score,c_score,impulsive,sensation_seeking,alcohol,caffeine,nicotine,recreational_drugs,stimulant_drugs,sedative_drugs,high_risk_drugs
 35-44,Female,Estudios de FP,UK,0.31287,-0.57545,-0.58331,-0.91699,-0.00665,-0.21712,-1.18084,1,1,0,0,0,0,0
 25-34,Male,Estudios superiores,UK,-0.67825,1.93886,1.43533,0.76096,-0.14277,-0.71126,-0.21575,1,1,1,1,1,0,0
 35-44,Male,Estudios de FP,UK,-0.46725,0.80523,-0.84732,-1.6209,-1.0145,-1.37983,0.40148,1,1,0,1,0,0,0

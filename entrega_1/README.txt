@@ -36,6 +36,7 @@ Versión de R: 4.3.2 o superior.
 - Carpeta data: Incluye los datasets.
         1. drug_consumption.data: Dataset empleado para el estudio.
         2. drug_consumption_clean.csv: Dataset salida del proceso de limpieza. 
+        3. drug_consumption_clean_r.csv: Dataset entrada para visualización en r.
 
 - Carpeta img: Incluye todos los gráficos en formato .jpg y .png de las visualizaciones analizadas.
 
